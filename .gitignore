@@ -1,0 +1,41 @@
+# Directorios de dependencias y builds
+node_modules/
+dist/
+build/
+out/
+
+# Archivos generados por IntelliJ IDEA y JetBrains
+.idea/
+*.iml
+*.iws
+
+# Archivos de compilación y dependencias de Java/Kotlin
+*.class
+*.jar
+*.war
+*.ear
+
+# Archivos de Gradle
+.gradle/
+.gradle-cache/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Archivos de Maven
+target/
+.mvn/
+
+# Archivos de TypeScript
+*.tsbuildinfo
+
+# Archivos de logs y bases de datos locales
+*.log
+db.sqlite
+
+# Configuración de entorno y credenciales
+.env
+*.keystore
+*.pem
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
